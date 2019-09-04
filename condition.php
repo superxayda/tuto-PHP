@@ -1,5 +1,5 @@
 <?php
-$note = (int)readline('votre note')
+$note = (int)readline('votre note');
 if ($note >=10) {
     echo 'bravo';
 } else {
