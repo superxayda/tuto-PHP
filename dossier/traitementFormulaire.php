@@ -8,6 +8,7 @@ require 'header.php';
         echo 'votre chiffer est trop petit';
     } else { 
         echo 'bravo vous avez deviné le chiffre';
+        
     }?>
 <form action="/traitementFormulaire.php" methode= "GET" >
     <input type = "number" name="chiffre" placeholder= "entre 0 et 1000" value= "<?= htmlentities($_GET['chiffre'])?>" >
